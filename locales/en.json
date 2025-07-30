@@ -60,9 +60,9 @@
         "close": "Close"
     },
     "phone": {
-        "redirecting": "Opening Phone app...",
-        "fallback_prefix": "If the app doesn't open automatically, ",
-        "fallback_link": "click here to call"
+        "recents": "Recents",
+        "contact1_name": "Eng. Mohamed Egypt",
+        "contact2_name": "Eng. Mohamed Oman"
     },
     "whatsapp": {
         "redirecting": "Redirecting to WhatsApp...",

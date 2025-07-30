@@ -60,9 +60,9 @@
         "close": "إغلاق"
     },
     "phone": {
-        "redirecting": "جاري فتح تطبيق الهاتف...",
-        "fallback_prefix": "إذا لم يفتح التطبيق تلقائيًا، ",
-        "fallback_link": "اضغط هنا للاتصال"
+        "recents": "الحديثة",
+        "contact1_name": "م/ محمد مصر",
+        "contact2_name": "م/ محمد عمان"
     },
     "whatsapp": {
         "redirecting": "جاري التوجيه إلى واتساب...",
