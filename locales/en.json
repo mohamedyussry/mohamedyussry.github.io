@@ -1,0 +1,141 @@
+{
+    "app": {
+        "about": {
+            "title": "About Me",
+            "alt": "About Me Icon"
+        },
+        "projects": {
+            "title": "Projects",
+            "alt": "Projects Icon"
+        },
+        "services": {
+            "title": "Services",
+            "alt": "Services Icon"
+        },
+        "ai": {
+            "title": "AI Engine",
+            "alt": "AI Engine Icon"
+        },
+        "stack": {
+            "title": "Tech Stack",
+            "alt": "Tech Stack Icon"
+        },
+        "contact": {
+            "title": "Contact",
+            "alt": "Terminal Icon"
+        },
+        "whatsapp": {
+            "title": "WhatsApp",
+            "alt": "WhatsApp Icon"
+        },
+        "settings": {
+            "title": "Settings",
+            "alt": "Settings Icon"
+        }
+    },
+    "login": {
+        "name": "Mohamed Yousry",
+        "button": "Log In",
+        "loading": "Loading MimiOS..."
+    },
+    "menubar": {
+        "byline": "MimiOS – by Mohamed Yousry",
+        "search": "Search"
+    },
+    "search": {
+        "placeholder": "Search for applications..."
+    },
+    "context_menu": {
+        "change_background": "Change Background",
+        "settings": "Settings",
+        "open": "Open",
+        "close": "Close"
+    },
+    "whatsapp": {
+        "redirecting": "Redirecting to WhatsApp...",
+        "fallback_prefix": "If you are not redirected automatically, ",
+        "fallback_link": "click here"
+    },
+    "about": {
+        "name": "Mohamed Yousry",
+        "title": "Full-Stack Software Engineer",
+        "p1": "A passionate programmer specializing in building innovative and efficient software solutions. I have extensive experience in end-to-end web application development, with a focus on user experience and high performance.",
+        "p2": "I believe that clean code is the foundation of any successful project, and I always strive to learn new technologies and apply them in my work."
+    },
+    "projects": {
+        "back": "Back to Projects",
+        "visit": "Visit Project",
+        "p1": {
+            "name": "Content Management System",
+            "description": "An integrated CMS built with Laravel and Vue.js, providing an easy-to-use control panel."
+        },
+        "p2": {
+            "name": "E-commerce Application",
+            "description": "A modern online store using React and Node.js with payment gateway integration."
+        },
+        "p3": {
+            "name": "Smart Telegram Bot",
+            "description": "An AI-based bot to answer customer inquiries and provide technical support."
+        }
+    },
+    "services": {
+        "title": "Services I Offer",
+        "s1": {
+            "title": "Full-Stack Web Development",
+            "description": "Building complete web applications from front-end to back-end using the latest technologies."
+        },
+        "s2": {
+            "title": "Artificial Intelligence Solutions",
+            "description": "Integrating AI models into your applications for data analysis, language processing, and more."
+        },
+        "s3": {
+            "title": "API Integration",
+            "description": "Connecting your systems with various external services to increase efficiency and expand application capabilities."
+        }
+    },
+    "ai": {
+        "initial_message": "Welcome to MimiOS! I'm Mind-AI, your smart assistant. How can I help you explore Mohamed Yousry's portfolio today?",
+        "placeholder": "Ask Mind-AI...",
+        "system_prompt": "You are \"Mind-AI\", a friendly and professional AI assistant integrated into \"MimiOS\", an interactive operating system that serves as the portfolio for developer Mohamed Yousry.\nYour task is to answer questions related to Mohamed Yousry, his skills, projects, and services. You must always be polite, knowledgeable, and answer in English.\nThis is the data available to you about Mohamed Yousry and his portfolio:\n\n- Who is Mohamed Yousry: A passionate programmer specializing in building innovative and efficient software solutions. He has extensive experience in end-to-end web application development, with a focus on user experience and high performance. He believes that clean code is the foundation of any successful project and always strives to learn and apply new technologies.\n\n- List of Projects:\n- Content Management System: An integrated CMS built on Laravel and Vue.js, offering an easy-to-use dashboard. (Technologies: Laravel, Vue.js, MySQL)\n- E-commerce Application: A modern online store using React and Node.js with payment gateway integration. (Technologies: React, Node.js, MongoDB)\n- Smart Telegram Bot: An AI-based bot to answer customer inquiries and provide technical support. (Technologies: Python, Telegram API, NLP)\n\n- Services Offered:\n- Full-Stack Web Development: Building complete web applications from front-end to back-end using the latest technologies.\n- Artificial Intelligence Solutions: Integrating AI models into applications for data analysis, language processing, and more.\n- API Integration: Connecting systems with various third-party services to increase efficiency and expand functionality.\n\n- Mastered Technologies:\nReact, Python, Laravel, Node.js\n\nUse this information to answer user queries. If the question is outside this scope, politely state that you are specialized only in information related to Mohamed Yousry's portfolio.",
+        "error": {
+            "initialization": "Sorry, an error occurred while initializing the AI assistant. The API Key may be invalid or unavailable.",
+            "processing": "Sorry, I encountered a problem processing your request. Please try again."
+        }
+    },
+    "stack": {
+        "title": "<My_Tech_Stack />"
+    },
+    "terminal": {
+        "welcome": "Welcome to MimiOS Terminal.",
+        "type_help": "Type `help` to see available commands.",
+        "help_commands": "Available commands:\n  <span class=\"text-cyan-400\">about</span>      - Shows information about Mohamed Yousry.\n  <span class=\"text-cyan-400\">projects</span>   - Lists all projects.\n  <span class=\"text-cyan-400\">contact</span>    - Displays contact information.\n  <span class=\"text-cyan-400\">clear</span>      - Clears the terminal screen.\n  <span class=\"text-cyan-400\">help</span>       - Shows this help message.",
+        "about_response": "Mohamed Yousry: A passionate Full-Stack Software Engineer specializing in innovative and efficient solutions.",
+        "projects_response": "Fetching projects...",
+        "contact_response": "Contact channels open:\nGitHub:   <a href='https://github.com/m-yousry' target='_blank' class='text-cyan-400 hover:underline'>github.com/m-yousry</a>\nTelegram: <a href='https://t.me/m_yousry' target='_blank' class='text-cyan-400 hover:underline'>t.me/m_yousry</a>\nWhatsApp: <a href='#' class='text-cyan-400 hover:underline'>+201xxxxxxxxx</a>\nEmail:    <a href='mailto:contact@myousry.dev' target='_blank' class='text-cyan-400 hover:underline'>contact@myousry.dev</a>",
+        "command_not_found": "Command not found: {0}. Type 'help' for a list of commands."
+    },
+    "settings": {
+        "title": "Settings",
+        "language": "Language",
+        "dark_mode": "Dark Mode",
+        "opacity": "Window Opacity",
+        "wallpaper": "Desktop Wallpaper",
+        "wallpaper_alt": "Set wallpaper to {0}"
+    },
+    "wallpapers": {
+        "mimios_dark": "MimiOS Dark",
+        "mimios_light": "MimiOS Light",
+        "mountain": "Mountain",
+        "galaxy": "Galaxy",
+        "beach": "Beach",
+        "abstract": "Abstract"
+    },
+    "mobile": {
+        "done": "Done"
+    },
+    "control_center": {
+        "light_mode": "Light Mode",
+        "dark_mode": "Dark Mode",
+        "text_size": "Text Size"
+    }
+}

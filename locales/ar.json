@@ -1,0 +1,141 @@
+{
+    "app": {
+        "about": {
+            "title": "من أنا",
+            "alt": "أيقونة من أنا"
+        },
+        "projects": {
+            "title": "المشاريع",
+            "alt": "أيقونة المشاريع"
+        },
+        "services": {
+            "title": "الخدمات",
+            "alt": "أيقونة الخدمات"
+        },
+        "ai": {
+            "title": "محرك الذكاء الصناعي",
+            "alt": "أيقونة محرك الذكاء الصناعي"
+        },
+        "stack": {
+            "title": "التقنيات",
+            "alt": "أيقونة التقنيات"
+        },
+        "contact": {
+            "title": "تواصل",
+            "alt": "أيقونة الطرفية"
+        },
+        "whatsapp": {
+            "title": "واتساب",
+            "alt": "أيقونة واتساب"
+        },
+        "settings": {
+            "title": "الإعدادات",
+            "alt": "أيقونة الإعدادات"
+        }
+    },
+    "login": {
+        "name": "محمد يسري",
+        "button": "تسجيل الدخول",
+        "loading": "جاري تحميل MimiOS..."
+    },
+    "menubar": {
+        "byline": "MimiOS – بواسطة محمد يسري",
+        "search": "بحث"
+    },
+    "search": {
+        "placeholder": "ابحث عن التطبيقات..."
+    },
+    "context_menu": {
+        "change_background": "تغيير الخلفية",
+        "settings": "الإعدادات",
+        "open": "فتح",
+        "close": "إغلاق"
+    },
+    "whatsapp": {
+        "redirecting": "جاري التوجيه إلى واتساب...",
+        "fallback_prefix": "إذا لم يتم تحويلك تلقائياً، ",
+        "fallback_link": "اضغط هنا"
+    },
+    "about": {
+        "name": "محمد يسري",
+        "title": "مهندس برمجيات شامل (Full-Stack)",
+        "p1": "مبرمج شغوف متخصص في بناء حلول برمجية مبتكرة وفعالة. أمتلك خبرة واسعة في تطوير تطبيقات الويب من الألف إلى الياء، مع التركيز على تجربة المستخدم والأداء العالي.",
+        "p2": "أؤمن بأن الكود النظيف هو أساس أي مشروع ناجح، وأسعى دائمًا لتعلم تقنيات جديدة وتطبيقها في عملي."
+    },
+    "projects": {
+        "back": "العودة للمشاريع",
+        "visit": "زيارة المشروع",
+        "p1": {
+            "name": "نظام إدارة محتوى",
+            "description": "نظام متكامل لإدارة المحتوى مبني على Laravel و Vue.js، يوفر لوحة تحكم سهلة الاستخدام."
+        },
+        "p2": {
+            "name": "تطبيق تجارة إلكترونية",
+            "description": "متجر إلكتروني حديث باستخدام React و Node.js مع تكامل بوابات الدفع."
+        },
+        "p3": {
+            "name": "بوت تليجرام ذكي",
+            "description": "بوت يعتمد على الذكاء الصناعي للإجابة على استفسارات العملاء وتقديم الدعم الفني."
+        }
+    },
+    "services": {
+        "title": "الخدمات التي أقدمها",
+        "s1": {
+            "title": "تطوير الويب الشامل",
+            "description": "بناء تطبيقات ويب متكاملة من الواجهة الأمامية إلى الخلفية باستخدام أحدث التقنيات."
+        },
+        "s2": {
+            "title": "حلول الذكاء الصناعي",
+            "description": "دمج نماذج الذكاء الصناعي في تطبيقاتك لتحليل البيانات، معالجة اللغات، والمزيد."
+        },
+        "s3": {
+            "title": "تكامل واجهات برمجية (APIs)",
+            "description": "ربط أنظمتك مع خدمات خارجية متنوعة لزيادة الفعالية وتوسيع قدرات التطبيق."
+        }
+    },
+    "ai": {
+        "initial_message": "أهلاً بك في MimiOS! أنا Mind-AI، مساعدك الذكي. كيف يمكنني مساعدتك في استكشاف معرض أعمال محمد يسري اليوم؟",
+        "placeholder": "اسأل Mind-AI...",
+        "system_prompt": "أنت \"Mind-AI\"، مساعد ذكاء صناعي ودود ومحترف مدمج في \"MimiOS\"، وهو نظام تشغيل تفاعلي يمثل معرض أعمال المطور محمد يسري.\nمهمتك هي الإجابة على الأسئلة المتعلقة بمحمد يسري، ومهاراته، ومشاريعه، وخدماته. يجب أن تكون دائمًا مهذبًا، ومطلعًا، وتجيب باللغة العربية.\nهذه هي البيانات المتاحة لك عن محمد يسري ومعرض أعماله:\n\n- من هو محمد يسري: مبرمج شغوف متخصص في بناء حلول برمجية مبتكرة وفعالة. يمتلك خبرة واسعة في تطوير تطبيقات الويب من الألف إلى الياء، مع التركيز على تجربة المستخدم والأداء العالي. يؤمن بأن الكود النظيف هو أساس أي مشروع ناجح، ويسعى دائمًا لتعلم تقنيات جديدة وتطبيقها في عملي.\n\n- قائمة المشاريع:\n- نظام إدارة محتوى: نظام متكامل لإدارة المحتوى مبني على Laravel و Vue.js، يوفر لوحة تحكم سهلة الاستخدام. (التقنيات: Laravel, Vue.js, MySQL)\n- تطبيق تجارة إلكترونية: متجر إلكتروني حديث باستخدام React و Node.js مع تكامل بوابات الدفع. (التقنيات: React, Node.js, MongoDB)\n- بوت تليجرام ذكي: بوت يعتمد على الذكاء الصناعي للإجابة على استفسارات العملاء وتقديم الدعم الفني. (التقنيات: Python, Telegram API, NLP)\n\n- الخدمات المقدمة:\n- تطوير الويب الشامل: بناء تطبيقات ويب متكاملة من الواجهة الأمامية إلى الخلفية باستخدام أحدث التقنيات.\n- حلول الذكاء الصناعي: دمج نماذج الذكاء الصناعي في تطبيقاتك لتحليل البيانات، معالجة اللغات، والمزيد.\n- تكامل واجهات برمجية (APIs): ربط أنظمتك مع خدمات خارجية متنوعة لزيادة الفعالية وتوسيع قدرات التطبيق.\n\n- التقنيات التي يتقنها:\nReact, Python, Laravel, Node.js\n\nاستخدم هذه المعلومات للإجابة على استفسارات المستخدم. إذا كان السؤال خارج هذا النطاق، أجب بأدب أنك متخصص فقط في المعلومات المتعلقة بمعرض أعمال محمد يسري.",
+        "error": {
+            "initialization": "عذرًا، حدث خطأ أثناء تهيئة مساعد الذكاء الصناعي. قد يكون مفتاح الواجهة البرمجية (API Key) غير صالح أو غير متوفر.",
+            "processing": "عذرًا، واجهتني مشكلة في معالجة طلبك. الرجاء المحاولة مرة أخرى."
+        }
+    },
+    "stack": {
+        "title": "<My_Tech_Stack />"
+    },
+    "terminal": {
+        "welcome": "Welcome to MimiOS Terminal.",
+        "type_help": "Type `help` to see available commands.",
+        "help_commands": "Available commands:\n  <span class=\"text-cyan-400\">about</span>      - Shows information about Mohamed Yousry.\n  <span class=\"text-cyan-400\">projects</span>   - Lists all projects.\n  <span class=\"text-cyan-400\">contact</span>    - Displays contact information.\n  <span class=\"text-cyan-400\">clear</span>      - Clears the terminal screen.\n  <span class=\"text-cyan-400\">help</span>       - Shows this help message.",
+        "about_response": "Mohamed Yousry: A passionate Full-Stack Software Engineer specializing in innovative and efficient solutions.",
+        "projects_response": "Fetching projects...",
+        "contact_response": "Contact channels open:\nGitHub:   <a href='https://github.com/m-yousry' target='_blank' class='text-cyan-400 hover:underline'>github.com/m-yousry</a>\nTelegram: <a href='https://t.me/m_yousry' target='_blank' class='text-cyan-400 hover:underline'>t.me/m_yousry</a>\nWhatsApp: <a href='#' class='text-cyan-400 hover:underline'>+201xxxxxxxxx</a>\nEmail:    <a href='mailto:contact@myousry.dev' target='_blank' class='text-cyan-400 hover:underline'>contact@myousry.dev</a>",
+        "command_not_found": "Command not found: {0}. Type 'help' for a list of commands."
+    },
+    "settings": {
+        "title": "الإعدادات",
+        "language": "اللغة",
+        "dark_mode": "الوضع الداكن",
+        "opacity": "شفافية النوافذ",
+        "wallpaper": "خلفية سطح المكتب",
+        "wallpaper_alt": "تعيين الخلفية إلى {0}"
+    },
+    "wallpapers": {
+        "mimios_dark": "MimiOS داكن",
+        "mimios_light": "MimiOS فاتح",
+        "mountain": "جبل",
+        "galaxy": "مجرة",
+        "beach": "شاطئ",
+        "abstract": "تجريدي"
+    },
+    "mobile": {
+        "done": "تم"
+    },
+    "control_center": {
+        "light_mode": "وضع فاتح",
+        "dark_mode": "وضع داكن",
+        "text_size": "حجم الخط"
+    }
+}
