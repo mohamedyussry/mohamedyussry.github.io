@@ -28,15 +28,23 @@
             "title": "WhatsApp",
             "alt": "WhatsApp Icon"
         },
+        "phone": {
+            "title": "Phone",
+            "alt": "Phone Icon"
+        },
+        "instagram": {
+            "title": "Instagram",
+            "alt": "Instagram Icon"
+        },
         "settings": {
             "title": "Settings",
             "alt": "Settings Icon"
         }
     },
-    "login": {
-        "name": "Mohamed Yousry",
-        "button": "Log In",
-        "loading": "Loading MimiOS..."
+    "lock_screen": {
+        "swipe_to_unlock": "Swipe up to open",
+        "weather_city": "Cairo",
+        "weather_sunny": "Sunny"
     },
     "menubar": {
         "byline": "MimiOS – by Mohamed Yousry",
@@ -50,6 +58,11 @@
         "settings": "Settings",
         "open": "Open",
         "close": "Close"
+    },
+    "phone": {
+        "redirecting": "Opening Phone app...",
+        "fallback_prefix": "If the app doesn't open automatically, ",
+        "fallback_link": "click here to call"
     },
     "whatsapp": {
         "redirecting": "Redirecting to WhatsApp...",
@@ -137,5 +150,15 @@
         "light_mode": "Light Mode",
         "dark_mode": "Dark Mode",
         "text_size": "Text Size"
+    },
+    "pwa": {
+        "install_title": "Install MimiOS App",
+        "install_description": "Add MimiOS to your Home Screen for quick access.",
+        "install_button": "Install"
+    },
+    "instagram": {
+        "redirecting": "Redirecting to Instagram...",
+        "fallback_prefix": "If you are not redirected automatically, ",
+        "fallback_link": "click here"
     }
 }

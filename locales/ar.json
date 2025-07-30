@@ -28,15 +28,23 @@
             "title": "واتساب",
             "alt": "أيقونة واتساب"
         },
+        "phone": {
+            "title": "هاتف",
+            "alt": "أيقونة الهاتف"
+        },
+        "instagram": {
+            "title": "انستجرام",
+            "alt": "أيقونة انستجرام"
+        },
         "settings": {
             "title": "الإعدادات",
             "alt": "أيقونة الإعدادات"
         }
     },
-    "login": {
-        "name": "محمد يسري",
-        "button": "تسجيل الدخول",
-        "loading": "جاري تحميل MimiOS..."
+    "lock_screen": {
+        "swipe_to_unlock": "اسحب للأعلى للفتح",
+        "weather_city": "القاهرة",
+        "weather_sunny": "مشمس"
     },
     "menubar": {
         "byline": "MimiOS – بواسطة محمد يسري",
@@ -50,6 +58,11 @@
         "settings": "الإعدادات",
         "open": "فتح",
         "close": "إغلاق"
+    },
+    "phone": {
+        "redirecting": "جاري فتح تطبيق الهاتف...",
+        "fallback_prefix": "إذا لم يفتح التطبيق تلقائيًا، ",
+        "fallback_link": "اضغط هنا للاتصال"
     },
     "whatsapp": {
         "redirecting": "جاري التوجيه إلى واتساب...",
@@ -137,5 +150,15 @@
         "light_mode": "وضع فاتح",
         "dark_mode": "وضع داكن",
         "text_size": "حجم الخط"
+    },
+    "pwa": {
+        "install_title": "تثبيت تطبيق MimiOS",
+        "install_description": "أضف MimiOS إلى شاشتك الرئيسية للوصول السريع.",
+        "install_button": "تثبيت"
+    },
+    "instagram": {
+        "redirecting": "جاري التوجيه إلى انستجرام...",
+        "fallback_prefix": "إذا لم يتم التوجيه تلقائيا، ",
+        "fallback_link": "اضغط هنا"
     }
 }
