@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MimiOS Portfolio</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="An interactive desktop-style portfolio for Mohamed Yousry, a Full-Stack Software Engineer, showcasing projects, skills, and services. Explore a unique web experience built with React and Tailwind CSS." />
+    <meta name="keywords" content="Mohamed Yousry, Portfolio, Full-Stack, Software Engineer, React, Developer, Web Applications, MimiOS, Projects" />
+    <meta name="author" content="Mohamed Yousry" />
+    <link rel="canonical" href="https://m-yousry.github.io/portfolio/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://m-yousry.github.io/portfolio/" />
+    <meta property="og:title" content="MimiOS Portfolio - Mohamed Yousry" />
+    <meta property="og:description" content="An interactive desktop-style portfolio for a Full-Stack Software Engineer." />
+    <meta property="og:image" content="https://i.ibb.co/v6g6kyX4/524725840-24124456783875013-449038795316378595-n.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://m-yousry.github.io/portfolio/" />
+    <meta property="twitter:title" content="MimiOS Portfolio - Mohamed Yousry" />
+    <meta property="twitter:description" content="An interactive desktop-style portfolio for a Full-Stack Software Engineer." />
+    <meta property="twitter:image" content="https://i.ibb.co/v6g6kyX4/524725840-24124456783875013-449038795316378595-n.jpg" />
+
+    <link rel="icon" type="image/svg+xml" href="https://i.ibb.co/0yNF4p3R/b79226024159bc71b6a14d6ac245c5bc-b-G7bks-JDSt.png" />
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'mac-red': '#ff5f57',
+              'mac-yellow': '#ffbd2e',
+              'mac-green': '#28c940',
+            },
+            cursor: {
+                'grab': 'grab',
+                'grabbing': 'grabbing',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+          'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+          sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      :root {
+        --window-opacity: 0.7;
+      }
+      .window-bg {
+        background-color: rgba(229, 231, 235, var(--window-opacity)); /* light: bg-gray-200 */
+      }
+      .dark .window-bg {
+        background-color: rgba(31, 41, 55, calc(var(--window-opacity) * 0.9)); /* dark: bg-gray-800, slightly more transparent */
+      }
+      @keyframes jiggle {
+        0%, 100% { transform: rotate(-1deg); }
+        50% { transform: rotate(1deg); }
+      }
+      .jiggle {
+        animation: jiggle 0.2s infinite ease-in-out;
+      }
+    </style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Mohamed Yousry",
+  "jobTitle": "Full-Stack Software Engineer",
+  "url": "https://m-yousry.github.io/portfolio/",
+  "image": "https://i.ibb.co/v6g6kyX4/524725840-24124456783875013-449038795316378595-n.jpg",
+  "sameAs": [
+    "https://github.com/m-yousry",
+    "https://t.me/m_yousry"
+  ],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://m-yousry.github.io/portfolio/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.1",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "@google/genai": "https://esm.sh/@google/genai"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-BcF85kpz.js"></script>
+</head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <div>
+        <h1>Mohamed Yousry - Full-Stack Software Engineer</h1>
+        <p>This is an interactive portfolio built with React. Please enable JavaScript to view the full experience.</p>
+        <h2>About Me</h2>
+        <p>A passionate programmer specializing in building innovative and efficient software solutions. I have extensive experience in end-to-end web application development, with a focus on user experience and high performance.</p>
+        <h2>Services</h2>
+        <ul>
+          <li>Full-Stack Web Development</li>
+          <li>Artificial Intelligence Solutions</li>
+          <li>API Integration</li>
+        </ul>
+        <h2>Contact</h2>
+        <p>Email: contact@myousry.dev | GitHub: m-yousry</p>
+      </div>
+    </noscript>
+  </body>
+</html>
