@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohamed Yousry | Full-Stack Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Poppins:wght@400;600;700&family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Poppins', 'sans-serif'],
+              cairo: ['Cairo', 'sans-serif'],
+              mono: ['Fira Code', 'monospace'],
+            },
+            colors: {
+              'primary': '#000000',
+              'secondary': '#111111',
+              'secondary-hover': '#1a1a1a',
+              'accent': '#FBBF24',
+              'accent-hover': '#F59E0B',
+              'light-text': '#E0E0E0',
+              'dark-text': '#A0A0A0',
+            },
+            animation: {
+              'float': 'float 6s ease-in-out infinite',
+              'spin': 'spin 1s linear infinite',
+            },
+            keyframes: {
+              float: {
+                '0%, 100%': { transform: 'translateY(0px)' },
+                '50%': { transform: 'translateY(-20px)' },
+              },
+              spin: {
+                'from': { transform: 'rotate(0deg)' },
+                'to': { transform: 'rotate(360deg)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+
+<link rel="stylesheet" href="/index.css">
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.1",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "framer-motion": "https://esm.sh/framer-motion@^12.23.12",
+    "three": "https://esm.sh/three@^0.178.0",
+    "@react-three/fiber": "https://esm.sh/@react-three/fiber@^9.3.0",
+    "@react-three/drei": "https://esm.sh/@react-three/drei@^10.6.1",
+    "react-intersection-observer": "https://esm.sh/react-intersection-observer@^9.13.0",
+    "next": "https://esm.sh/next@^15.4.5",
+    "@google/genai": "https://esm.sh/@google/genai@^1.14.0"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-C2FXQFIC.js"></script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
